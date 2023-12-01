@@ -59,7 +59,7 @@ public class testSelectionSort {
 
     public void testMixed() {
         int[] arr = {3, -2, 0, 1, -1};
-        int[] Sortedarr = {-2, -1, 0, 1, 3};
+        int[] Sortedarr = {-2, -4, 0, 1, 3};
 
         printArray("Mixed Before Sorting", arr);
         sorter.basicSelectionSort(arr);
@@ -75,7 +75,7 @@ public class testSelectionSort {
 
     public void testDuplicates() {
         int[] arr = {4, 2, 2, 4, 3, 3};
-        int[] Sortedarr = {2, 2, 3, 3, 4, 4};
+        int[] Sortedarr = {2, 2, 4, 3, 4, 4};
 
         printArray("Duplicates Before Sorting", arr);
         sorter.basicSelectionSort(arr);
